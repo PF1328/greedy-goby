@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Greedy Goby</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,26 +14,37 @@
             color: #eaeaea;
             line-height: 1.6;
         }
+
         header {
             background-color: #1f1f1f;
             padding: 40px 20px;
             text-align: center;
         }
+
         section {
             max-width: 900px;
             margin: auto;
             padding: 40px 20px;
         }
+
         h1, h2 {
             color: #f2c94c;
         }
+
         a {
             color: #6fcf97;
             text-decoration: none;
+            font-weight: bold;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
+        ul {
+            padding-left: 20px;
+        }
+
         footer {
             background-color: #1f1f1f;
             text-align: center;
@@ -40,11 +52,16 @@
             font-size: 0.9em;
             color: #aaaaaa;
         }
-        ul {
-            padding-left: 20px;
+
+        .download-box {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
         }
     </style>
 </head>
+
 <body>
 
 <header>
@@ -56,8 +73,8 @@
     <h2>Présentation du projet</h2>
     <p>
         Greedy Goby est un jeu de type rogue-like 2D jouable en coopération à deux joueurs en ligne.
-        Le joueur incarne un gobelin cupide explorant un donjon infini afin d'accumuler un maximum d'or.
-        Le jeu repose sur l'exploration de salles générées procéduralement, la coopération entre joueurs
+        Le joueur incarne un gobelin cupide explorant un donjon infini afin d’accumuler un maximum d’or.
+        Le jeu repose sur l’exploration de salles générées procéduralement, la coopération entre joueurs
         et une progression basée sur la prise de risque.
     </p>
 </section>
@@ -65,32 +82,40 @@
 <section>
     <h2>Équipe du projet</h2>
     <ul>
-        <li>Horia Georgescu – Chef de projet, game design, ennemis et réseau</li>
-        <li>Pierre-François Silvestre – Game design, génération des salles et interface</li>
-        <li>Nicolas Forest – Programmation du joueur, ennemis et mascotte</li>
-        <li>Charlotte Capon – Graphismes, sons et musiques</li>
+        <li><strong>Horia Georgescu</strong> – Chef de projet, game design, ennemis et réseau</li>
+        <li><strong>Pierre-François Silvestre</strong> – Game design, génération des salles et interface</li>
+        <li><strong>Nicolas Forest</strong> – Programmation du joueur, ennemis et mascotte</li>
+        <li><strong>Charlotte Capon</strong> – Graphismes, sons et musiques</li>
     </ul>
 </section>
+
 <section>
-    <h2>Téléchargement</h2>
-    <p>
-        Le code source du jeu est disponible sur GitHub :
-        <br>
-        <a href="https://github.com/pf1328/greedy-goby" target="_blank">
-            Télécharger le projet (GitHub)
-        </a>
-        <a href="greedy-goby.zip" download>
-    Télécharger le jeu (version ZIP)
-</a>
-    </p>
+    <h2>Technologies utilisées</h2>
+    <ul>
+        <li>Python</li>
+        <li>Pygame</li>
+        <li>Git / GitHub</li>
+    </ul>
 </section>
 
 <section>
     <h2>Téléchargement</h2>
-    <p>
-        Le projet est disponible via le dépôt Git ci-dessus.  
-        Une version exécutable sera proposée lors des prochaines soutenances.
-    </p>
+
+    <div class="download-box">
+        <p>
+            <a href="greedy-goby.zip" download>
+                Télécharger le jeu (version ZIP)
+            </a>
+        </p>
+
+        <p>
+            Le code source est également disponible sur GitHub :
+            <br>
+            <a href="https://github.com/pf1328/greedy-goby" target="_blank">
+                https://github.com/pf1328/greedy-goby
+            </a>
+        </p>
+    </div>
 </section>
 
 <footer>
